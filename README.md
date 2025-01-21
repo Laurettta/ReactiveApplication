@@ -1,11 +1,20 @@
-Reactive Student Management System
-A Spring WebFlux-based reactive application for managing student records with a non-blocking, asynchronous approach. The application provides an efficient way to handle CRUD operations for student data.
+# Reactive Student Management System
 
-Key Features
-Reactive Architecture: Asynchronous, non-blocking processing using Spring WebFlux for better performance and scalability.
-Database Integration: Reactive integration with PostgreSQL using R2DBC for seamless, efficient data management.
+A fully reactive student management system built with **Spring WebFlux** and integrated with **PostgreSQL** as the database. The application demonstrates a non-blocking, asynchronous architecture for high performance and scalability.
 
-CRUD Operations:
-Save Student: Create new student records in a reactive, non-blocking manner.
-Get All Students: Retrieve a list of all students using reactive streams.
-Find Student by ID: Fetch details of a specific student by their ID.
+## Features
+
+- **Add Students**: Save student details like ID, name, and other attributes to the database.
+- **Retrieve All Students**: Fetch a list of all students stored in the database.
+- **Find Student by ID**: Fetch details of a specific student using their unique ID.
+- **Reactive Architecture**: Leverages Spring WebFlux and PostgreSQL with R2DBC for asynchronous database operations.
+
+## Technologies Used
+
+- **Java**: Programming language.
+- **Spring Boot**: Framework for rapid application development.
+- **Spring WebFlux**: Reactive programming framework for handling asynchronous HTTP requests.
+- **PostgreSQL**: Relational database for data persistence.
+- **R2DBC**: Reactive Relational Database Connectivity for integrating with PostgreSQL.
+- **Lombok**: Simplifies boilerplate code with annotations.
+- **Maven**: Build and dependency management.
